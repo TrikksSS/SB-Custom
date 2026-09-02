@@ -39,19 +39,6 @@ dnf5 -y copr disable scottames/ghostty
 # this installs a package from fedora repos
 dnf5 install -y tmux
 
-#Installs my preferred flatpaks
-flatpak install -y flathub org.mozilla.firefox
-flatpak install -y flathub com.microsoft.Edge
-flatpak install -y flathub com.protonvpn.www
-flatpak install -y flathub org.prismlauncher.PrismLauncher
-flatpak install -y flathub info.smplayer.SMPlayer
-flatpak install -y flathub com.ktechpit.whatsie
-flatpak install -y flathub com.github.tchx84.Flatseal
-flatpak install -y flathub com.mattjakeman.ExtensionManager
-flatpak install -y flathub com.usebottles.bottles
-flatpak install -y flathub org.gnome.DejaDup
-flatpak install -y flathub com.ranfdev.DistroShelf
-
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
